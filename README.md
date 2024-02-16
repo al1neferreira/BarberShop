@@ -39,7 +39,7 @@ Aplicativo Android nativo desenvolvido para auxiliar a gestão de agendamentos d
 
 
 ### TODO
-- Melhorar UI do app
+- Melhorar a UI do app
 - Implementar a autenticação com o Google
 - Criar uma tela de cadastro de usuário integrado com o Cloud Firestore
 
