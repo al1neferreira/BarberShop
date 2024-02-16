@@ -1,0 +1,31 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.BarberShop" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Customize your dark theme here. -->
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+        <item name="android:statusBarColor">@color/bege1</item>
+
+    </style>
+
+    <style name="MyDatePicker" >
+        <!-- Text color -->
+        <item name="android:textColorPrimary">#FF000000</item>
+        <!-- Divider color -->
+        <item name="colorControlNormal">@color/newblack</item>
+
+        <item name="backgroundColor">@color/bege1</item>
+
+    </style>
+
+    <style name="MyTimePicker">
+
+        <item name="android:textColorPrimary">#FF000000</item>
+        <!-- Divider color -->
+        <item name="colorControlNormal">@color/newblack</item>
+
+        <item name="backgroundColor">@color/bege1</item>
+
+    </style>
+
+
+</resources>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/newblack"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/img_logo"
+            android:layout_width="409dp"
+            android:layout_height="400dp"
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/logo4"
+            app:layout_constraintBottom_toTopOf="@+id/edit_nome"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.5" />
+
+        <EditText
+            android:id="@+id/edit_nome"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="55dp"
+            android:layout_marginTop="428dp"
+            android:layout_marginEnd="55dp"
+            android:layout_marginBottom="249dp"
+            android:background="@drawable/bg_edit_text"
+            android:fontFamily="sans-serif-condensed-light"
+            android:gravity="center"
+            android:hint="Insira o nome de usuário"
+            android:inputType="text"
+
+            android:maxLines="1"
+            android:padding="15dp"
+            android:textColor="@color/newblack"
+            android:textColorHint="@color/newblack"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.5" />
+
+        <EditText
+            android:id="@+id/edit_senha"
+            android:layout_width="300sp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="55dp"
+            android:layout_marginTop="528dp"
+            android:layout_marginEnd="55dp"
+            android:layout_marginBottom="149dp"
+            android:background="@drawable/bg_edit_text"
+            android:fontFamily="sans-serif-condensed-light"
+            android:gravity="center"
+            android:hint="Digite a sua senha"
+            android:inputType="numberPassword"
+            android:maxLines="1"
+            android:padding="15dp"
+            android:textColor="@color/newblack"
+            android:textColorHint="@color/newblack"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="250sp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/black"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center"
+            android:padding="15dp"
+            android:text="LOGIN"
+            android:textColor="@color/bege1"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:cornerRadius="15dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.921" />
+
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="6dp"
+            android:layout_marginBottom="4dp"
+            android:alpha="15"
+            android:background="@color/bege1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
