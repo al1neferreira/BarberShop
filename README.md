@@ -15,7 +15,6 @@ Aplicativo Android nativo desenvolvido para auxiliar a gestão de agendamentos d
 		 
 * Activity para host de telas
 
-* Injeção de dependências no Gradle
     * Firebase-bom
     * Firebase-auth
     * Firebase-firestore
